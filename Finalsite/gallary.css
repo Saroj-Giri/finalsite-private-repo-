@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: yellowgreen;
+    margin: 30px 0 50px;
+}
+
+.gallary{
+    margin: 10px 50px;
+    margin-left: 8%;
+}
+
+.gallary img{
+    height: 200px;
+    width: 300px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.gallary img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
